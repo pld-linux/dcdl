@@ -6,9 +6,9 @@ Name:		dcdl
 Version:	2.0
 Release:	1
 License:	Free for non-comercial use, non-distributable
+Group:		Applications/Text
 # from http://akpublic.research.att.com/cgi-bin/access.cgi/as/vt/ext-software/www-ne-license.cgi?form.dcd.binary
 Source0:	%{rname}_%{fversion}.linux.i386.tar.gz
-Group:		Applications/Text
 URL:		http://www.research.att.com/sw/tools/dcd/
 ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -18,6 +18,12 @@ The DCD Library is a software collection for speech recognition
 decoding and related functions. Based on the Finite-State Machine
 (FSM) Library, it provides higher-level operations needed specifically
 for decoding.
+
+%description -l pl
+Biblioteka DCD to zbiór oprogramowania dekodowania i zbli¿onych
+funkcji zwi±zanych z rozpoznawaniem mowy. Jest oparta na bibliotece
+FSM (automatów skoñczonych), udostêpnia operacje wy¿szego poziomu
+potrzebne w szczególno¶ci do dekodowania.
 
 %prep
 %setup -q -n %{rname}-%{version}
