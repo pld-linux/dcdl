@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr . _)
 %define		rname	dcd
 Summary:	Speech Recognition Decoder Library
-Summary(pl):	Biblioteka rozpoznawania dekodowañ
+Summary(pl.UTF-8):   Biblioteka rozpoznawania dekodowaÅ„
 Name:		dcdl
 Version:	2.0
 Release:	1
@@ -19,11 +19,11 @@ decoding and related functions. Based on the Finite-State Machine
 (FSM) Library, it provides higher-level operations needed specifically
 for decoding.
 
-%description -l pl
-Biblioteka DCD to zbiór oprogramowania dekodowania i zbli¿onych
-funkcji zwi±zanych z rozpoznawaniem mowy. Jest oparta na bibliotece
-FSM (automatów skoñczonych), udostêpnia operacje wy¿szego poziomu
-potrzebne w szczególno¶ci do dekodowania.
+%description -l pl.UTF-8
+Biblioteka DCD to zbiÃ³r oprogramowania dekodowania i zbliÅ¼onych
+funkcji zwiÄ…zanych z rozpoznawaniem mowy. Jest oparta na bibliotece
+FSM (automatÃ³w skoÅ„czonych), udostÄ™pnia operacje wyÅ¼szego poziomu
+potrzebne w szczegÃ³lnoÅ›ci do dekodowania.
 
 %prep
 %setup -q -n %{rname}-%{version}
