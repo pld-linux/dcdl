@@ -1,7 +1,7 @@
 %define		fversion	%(echo %{version} |tr . _)
 %define		rname	dcd
 Summary:	Speech Recognition Decoder Library
-Summary(pl.UTF-8):   Biblioteka rozpoznawania dekodowań
+Summary(pl.UTF-8):	Biblioteka rozpoznawania dekodowań
 Name:		dcdl
 Version:	2.0
 Release:	1
